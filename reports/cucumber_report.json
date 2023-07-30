@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-api/service-testing;hit-any-get-httpp-rest-api-and-validate-it",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Hit any get httpp rest api and validate it",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have endpoint url available for test",
+            "match": {
+              "location": "step-definitions\\sample-api-test.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7640599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I hit get request",
+            "match": {
+              "location": "step-definitions\\sample-api-test.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1174400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify the response",
+            "match": {
+              "location": "step-definitions\\sample-api-test.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 814700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-api/service-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sample Api/Service testing",
+    "tags": [],
+    "uri": "features\\sample-api-test.feature"
+  }
+]
