@@ -1,0 +1,33 @@
+{
+  "name": "apicucumbertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "bdd",
+    "cucumber",
+    "gherkin",
+    "apitesting",
+    "resttesting",
+    "soaptesting",
+    "api-bdd",
+    "api-atdd",
+    "js-api-test",
+    "js-api-testing",
+    "tests"
+  ],
+  "author": "Thiness Babu",
+  "homepage": "https://github.com/thinessGit/apicucumbertest",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinessGit/apicucumbertest.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0"
+  }
+}
