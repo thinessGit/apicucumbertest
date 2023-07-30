@@ -1,7 +1,7 @@
 # API Cucumber Testing in JavaScript
 
-This repository contains a set of API tests written in JavaScript using the Cucumber testing framework. 
-The tests are designed to validate the functionality and behavior of various API endpoints for your application. 
+This repository contains a set of API tests written in JavaScript using the Cucumber testing framework.
+The tests are designed to validate the functionality and behavior of various API endpoints for your application.
 By using Cucumber, you can create easily readable and maintainable test scenarios written in Gherkin syntax.
 
 ## Prerequisites
@@ -21,4 +21,32 @@ Follow the steps below to set up the project and run the API tests:
 ```bash
 git clone https://github.com/thinessGit/apicucumbertest.git
 cd apicucumbertest
+```
 
+## Setup
+
+```bash
+npm i install
+```
+
+## Features
+
+place or create all feature file for testing in below path
+
+```bash
+\features
+```
+
+## Step Definitions
+
+place or create all step definitions file for testing in below path
+
+```bash
+\step-definitions
+```
+
+## Run all feature files in test suite
+
+```bash
+npm run test
+```
