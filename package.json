@@ -28,6 +28,8 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^9.3.0"
+    "@cucumber/cucumber": "^9.3.0",
+    "axios": "^1.4.0",
+    "chai": "^4.3.7"
   }
 }

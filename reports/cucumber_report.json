@@ -4,48 +4,48 @@
     "elements": [
       {
         "description": "",
-        "id": "sample-api/service-testing;hit-any-get-httpp-rest-api-and-validate-it",
-        "keyword": "Scenario",
-        "line": 3,
-        "name": "Hit any get httpp rest api and validate it",
+        "id": "example-api/service-testing-in-cucumber;hit-any-get-http-rest-api-and-validate-it",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Hit any get http rest api and validate it",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I have endpoint url available for test",
+            "name": "I have endpoint \"https://api.agify.io/\" available for test",
             "match": {
-              "location": "step-definitions\\sample-api-test.js:3"
+              "location": "step-definitions\\sample-api-test.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 7640599
+              "duration": 9865799
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I hit get request",
+            "name": "I hit get request for \"Babu\"",
             "match": {
-              "location": "step-definitions\\sample-api-test.js:7"
+              "location": "step-definitions\\sample-api-test.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1174400
+              "duration": 1037122200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I verify the response",
+            "name": "I verify the response status 200 and \"Babu\" is valid",
             "match": {
-              "location": "step-definitions\\sample-api-test.js:11"
+              "location": "step-definitions\\sample-api-test.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 814700
+              "duration": 4577399
             }
           }
         ],
@@ -53,10 +53,10 @@
         "type": "scenario"
       }
     ],
-    "id": "sample-api/service-testing",
+    "id": "example-api/service-testing-in-cucumber",
     "line": 1,
     "keyword": "Feature",
-    "name": "Sample Api/Service testing",
+    "name": "Example Api/Service testing in Cucumber",
     "tags": [],
     "uri": "features\\sample-api-test.feature"
   }
