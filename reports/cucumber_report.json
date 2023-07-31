@@ -15,11 +15,11 @@
             "line": 4,
             "name": "I have endpoint \"https://api.agify.io/\" available for test",
             "match": {
-              "location": "step-definitions\\sample-api-test.js:9"
+              "location": "step-definitions\\example-api-test.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 9865799
+              "duration": 7041300
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 5,
             "name": "I hit get request for \"Babu\"",
             "match": {
-              "location": "step-definitions\\sample-api-test.js:13"
+              "location": "step-definitions\\example-api-test.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1037122200
+              "duration": 1298807299
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 6,
             "name": "I verify the response status 200 and \"Babu\" is valid",
             "match": {
-              "location": "step-definitions\\sample-api-test.js:19"
+              "location": "step-definitions\\example-api-test.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 4577399
+              "duration": 2934499
             }
           }
         ],
@@ -58,6 +58,278 @@
     "keyword": "Feature",
     "name": "Example Api/Service testing in Cucumber",
     "tags": [],
-    "uri": "features\\sample-api-test.feature"
+    "uri": "features\\example-api-test.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "example-api/service-testing-in-cucumber-with-fetch;hit-any-get-http-rest-api-and-validate-it-using-fetch",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Hit any get http rest api and validate it using fetch",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have endpoint \"activity\" available for test using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3082999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I hit get request using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 875880699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify the response status 200",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 878799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "example-api/service-testing-in-cucumber-with-fetch;hit-any-get-http-rest-api-and-validate-it-using-fetch",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Hit any get http rest api and validate it using fetch",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have endpoint \"ip-info\" available for test using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I hit get request using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 797882400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify the response status 200",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "example-api/service-testing-in-cucumber-with-fetch;hit-any-get-http-rest-api-and-validate-it-using-fetch",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Hit any get http rest api and validate it using fetch",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have endpoint \"fact\" available for test using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I hit get request using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 727141099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify the response status 200",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "example-api/service-testing-in-cucumber-with-fetch;hit-any-get-http-rest-api-and-validate-it-using-fetch",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Hit any get http rest api and validate it using fetch",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have endpoint \"joke\" available for test using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 579699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I hit get request using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1593923699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify the response status 200",
+            "match": {
+              "location": "step-definitions\\fetch-api-get-test.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "example-api/service-testing-in-cucumber-with-fetch",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Example Api/Service testing in Cucumber with fetch",
+    "tags": [],
+    "uri": "features\\fetch-api-get-test.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "example-post-api/service-testing-in-cucumber-with-fetch;hit-any-post-http-rest-api-and-validate-it-using-fetch",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Hit any post http rest api and validate it using fetch",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have endpoint and request body \"reqres-users\" available for test",
+            "match": {
+              "location": "step-definitions\\fetch-api-post-test.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1090300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I hit post request using fetch",
+            "match": {
+              "location": "step-definitions\\fetch-api-post-test.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 404782199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify the response status 201 for post request",
+            "match": {
+              "location": "step-definitions\\fetch-api-post-test.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1287299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "example-post-api/service-testing-in-cucumber-with-fetch",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Example post Api/Service testing in Cucumber with fetch",
+    "tags": [],
+    "uri": "features\\fetch-api-post-test.feature"
   }
 ]

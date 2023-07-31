@@ -1,0 +1,7 @@
+{
+  "activity": "https://www.boredapi.com/api/activity",
+  "ip-info": "https://api.ipify.org/?format=json",
+  "fact": "https://catfact.ninja/fact",
+  "joke": "https://official-joke-api.appspot.com/random_joke",
+  "reqres-users": "https://reqres.in/api/users"
+}
