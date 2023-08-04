@@ -50,3 +50,9 @@ place or create all step definitions file for testing in below path
 ```bash
 npm run test
 ```
+
+
+>By<br/>
+**Thiness Babu**<br/>
+Automation Test Architect<br/>
+https://github.com/thinessGit/ <br/>
